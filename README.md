@@ -52,40 +52,37 @@ To convert raw student marks and study-hour data into evidence-based insights us
 ```mermaid
 flowchart LR
 
-A[📂 Student Scores Dataset] --> B[🧹 Data Preprocessing]
-B --> C[📊 Descriptive Statistics]
-C --> D[📈 Probability Distributions]
-D --> E[📉 Statistical Analysis]
-E --> F[📐 Linear Algebra]
-F --> G[📊 Data Visualization]
-G --> H[📋 Insights & Conclusion]
+A([📂 Student Scores Dataset]) --> B([🧹 Data Preprocessing])
+B --> C([📊 Descriptive Statistics])
+C --> D([📈 Probability Distributions])
+D --> E([📉 Statistical Analysis])
+E --> F([📐 Linear Algebra])
+F --> G([📊 Data Visualization])
+G --> H([📋 Insights & Conclusion])
 
-C --> C1[Mean]
-C --> C2[Median]
-C --> C3[Mode]
-C --> C4[Variance]
-C --> C5[Standard Deviation]
+C --> C1([Mean])
+C --> C2([Median])
+C --> C3([Mode])
+C --> C4([Variance])
+C --> C5([Standard Deviation])
 
-D --> D1[Normal Distribution]
-D --> D2[Binomial Distribution]
-D --> D3[Poisson Distribution]
-D --> D4[Log-Normal Distribution]
+D --> D1([Normal Distribution])
+D --> D2([Binomial Distribution])
+D --> D3([Poisson Distribution])
+D --> D4([Log-Normal Distribution])
 
-E --> E1[Skewness]
-E --> E2[Kurtosis]
-E --> E3[Correlation]
-E --> E4[Covariance]
+E --> E1([Skewness])
+E --> E2([Kurtosis])
+E --> E3([Correlation])
+E --> E4([Covariance])
 
-F --> F1[Vectors]
-F --> F2[Matrices]
-F --> F3[Matrix Operations]
-F --> F4[Eigenvalues]
+F --> F1([Vectors])
+F --> F2([Matrices])
+F --> F3([Matrix Operations])
+F --> F4([Eigenvalues])
 
-G --> G1[Histogram]
-G --> G2[Box Plot]
-G --> G3[Scatter Plot]
-G --> G4[Q-Q Plot]
-G --> G5[Heatmap]
+G --> G1([Histogram])
+G --> G4([Q-Q Plot])
 ```
 
 ## 📂 Dataset Overview
