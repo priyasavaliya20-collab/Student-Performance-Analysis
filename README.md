@@ -25,13 +25,17 @@ To convert raw student marks and study-hour data into evidence-based insights us
 
 ## 🛠️ Tools & Libraries
 
-![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green?style=flat-square)
-![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=flat-square)
-![SciPy](https://img.shields.io/badge/SciPy-Statistics-purple?style=flat-square)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red?style=flat-square)
-![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-f89939?style=flat-square&logo=scikitlearn)
+<div>
+  
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/SciPy-8CAAE6?style=for-the-badge&logo=scipy&logoColor=white"/>
+<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-2C2D72?style=for-the-badge&logo=plotly&logoColor=white"/>
+
+</div>
 
 ---
 
