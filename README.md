@@ -8,7 +8,7 @@ The project combines mathematical theory with practical implementation in Python
 
 ## 🎯 Objective
 
-To convert raw student marks and study-hour data into evidence-based insights using statistical and mathematical techniques — covering Mean/Median/Mode, Variance/Std Dev, Probability & Conditional Probability, Distribution shape (Skewness, Kurtosis, Q-Q Plot), and Vector operations (Dot Product, Norms, Angle).
+
 
 ---
 
@@ -44,6 +44,21 @@ To convert raw student marks and study-hour data into evidence-based insights us
 [![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/15rVC3j1UWCeM1BUH4yeZeG4bfqLHGLoZ/view?usp=sharing)
 
 📹 Click the badge above to watch the complete project demonstration.
+
+---
+
+### 📜 Theory part :-
+
+ 
+<img width="800" height="425" alt="Part A gif" src="https://github.com/user-attachments/assets/17df8283-ef31-4e29-9708-6e569eb80468" />
+
+
+---
+
+### 📝 Jupyter notebook :-
+
+ <img width="800" height="425" alt="Part B GIF" src="https://github.com/user-attachments/assets/29b9eca1-3bb9-48b1-bc18-0c0b7ce2dafd" />
+
 
 ---
 
