@@ -149,7 +149,7 @@ kurtosis = df["Science_Score"].kurt()
 ```python
 stats.probplot(df["English_Score"], dist="norm", plot=plt)
 ```
-<img width="618" height="626" alt="2 IMAGE" src="https://github.com/user-attachments/assets/18607c6c-9d7b-4c80-9c86-5bd5e2f50b1c" />
+<img width="717" height="470" alt="2 IMAGE" src="https://github.com/user-attachments/assets/18607c6c-9d7b-4c80-9c86-5bd5e2f50b1c" />
 
 
 **💡 Insight:** Most English_Score points align closely with the theoretical straight line, confirming scores roughly follow a Normal Distribution — only the extreme tails show minor deviation, hinting at a few outliers.
