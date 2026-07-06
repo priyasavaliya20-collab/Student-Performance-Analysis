@@ -76,7 +76,7 @@ mean_math = df["Math_Score"].mean()
 median_math = df["Math_Score"].median()
 mode_math = df["Math_Score"].mode()[0]
 ```
-**Result:** Mean = 67.13, Median = 67.0, Mode = 40
+
 
 **💡 Insight:** Mean (67.13) and Median (67.0) are almost identical, so Math_Score is fairly symmetric overall. However, the Mode (40) sits well below both — a smaller cluster of students is scoring on the lower end, even though the majority of the batch performs moderately well without any extreme skew.
 
@@ -86,7 +86,7 @@ range_science = df["Science_Score"].max() - df["Science_Score"].min()
 variance_science = df["Science_Score"].var()
 std_science = df["Science_Score"].std()
 ```
-**Result:** Range = 65, Variance ≈ 361, Std Dev ≈ 19
+
 
 **💡 Insight:** A range of 65 shows a wide gap between the highest and lowest Science scores. With a standard deviation of ~19 and variance of ~361, Science performance is highly spread out — some students score very well, others quite poorly, unlike the more concentrated Math scores.
 
@@ -98,7 +98,7 @@ std_science = df["Science_Score"].std()
 ```python
 prob_pass = (df["Pass_Fail"] == 1).mean()
 ```
-**Result:** P(Pass) = **94.54%**
+
 
 **💡 Insight:** With a 94.54% pass rate, only ~5.46% of students fail — this is a high-performing batch overall, though that small failing group likely needs targeted support.
 
@@ -115,7 +115,7 @@ table = pd.crosstab(df["Pass_Fail"], df["Hours_Studied_GT5"])
 students_gt5 = df[df["Hours_Studied"] > 5]
 conditional_probability = (students_gt5["Pass_Fail"] == 1).mean()
 ```
-**Result:** P(Pass | Hours > 5) = **94.75%**
+
 
 **💡 Insight:** This is slightly higher than the overall pass probability (94.54%), confirming that studying more than 5 hours modestly improves the odds of passing — students crossing that threshold have roughly a 95% chance of passing.
 
@@ -131,6 +131,9 @@ y = stats.norm.pdf(x, df["Math_Score"].mean(), df["Math_Score"].std())
 plt.plot(x, y, linewidth=2)
 ```
 
+<img width="717" height="470" alt="1 IMAGE" src="https://github.com/user-attachments/assets/803d2fc6-ac47-41fc-a639-cdf552257541" />
+
+
 **💡 Insight:** The histogram closely follows a bell-shaped curve, and the overlaid Normal Distribution curve matches it well — Math_Score is approximately normally distributed with no major skew.
 
 ### ⚖️ Skewness & Kurtosis — Science_Score
@@ -138,7 +141,7 @@ plt.plot(x, y, linewidth=2)
 skewness = df["Science_Score"].skew()
 kurtosis = df["Science_Score"].kurt()
 ```
-**Result:** Skewness ≈ 0 (−0.0000158), Kurtosis ≈ −1.20
+
 
 **💡 Insight:** Skewness near zero means Science_Score is almost perfectly symmetric. The negative kurtosis (−1.20) indicates a platykurtic distribution — flatter than Normal with thinner tails, meaning scores are spread evenly without a heavy cluster of outliers.
 
@@ -146,6 +149,8 @@ kurtosis = df["Science_Score"].kurt()
 ```python
 stats.probplot(df["English_Score"], dist="norm", plot=plt)
 ```
+<img width="618" height="626" alt="2 IMAGE" src="https://github.com/user-attachments/assets/18607c6c-9d7b-4c80-9c86-5bd5e2f50b1c" />
+
 
 **💡 Insight:** Most English_Score points align closely with the theoretical straight line, confirming scores roughly follow a Normal Distribution — only the extreme tails show minor deviation, hinting at a few outliers.
 
@@ -164,7 +169,7 @@ science_vector = df["Science_Score"].head(5).values
 ```python
 dot_product = np.dot(math_vector, science_vector)
 ```
-**Result:** Dot Product = **22,519**
+
 
 **💡 Insight:** This combined value reflects the overall magnitude and alignment between the Math and Science score vectors for these 5 students.
 
@@ -173,7 +178,6 @@ dot_product = np.dot(math_vector, science_vector)
 norm1 = np.linalg.norm(math_vector, 1)
 norm2 = np.linalg.norm(math_vector, 2)
 ```
-**Result:** Norm-1 (Manhattan) = 303.0, Norm-2 (Euclidean) = 141.71
 
 **💡 Insight:** Norm-1 is simply the sum of absolute Math scores, while Norm-2 gives the vector's true straight-line magnitude — two different mathematical views of the same vector's "size."
 
@@ -182,7 +186,7 @@ norm2 = np.linalg.norm(math_vector, 2)
 cos_theta = dot_product / (norm_math * norm_science)
 angle = np.degrees(np.arccos(cos_theta))
 ```
-**Result:** Angle ≈ **21.25°**
+
 
 **💡 Insight:** A small angle of 21.25° means the Math and Science score vectors point in a similar direction — students performing well in Math also tend to perform well in Science. It isn't a perfect 0° (fully proportional), but the correlation between the two subjects is clearly strong.
 
@@ -239,6 +243,7 @@ Student_score.ipynb
 
 ## 👩‍💻 Author
 
+**Priya Savaliya**
 📍 Ahmedabad, Gujarat, India
 
 *"Data-Driven Decisions · Statistical Thinking · Evidence-Based Conclusions"*
