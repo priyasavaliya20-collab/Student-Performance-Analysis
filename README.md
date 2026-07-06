@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=cylinder&height=245&color=0:000814,20:001D3D,40:003566,60:00509D,80:3A86FF,100:ADE8F4&text=Student%20Score%20Analysis&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Statistics%20•%20Probability%20•%20Linear%20Algebra&descAlignY=66&descSize=20"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:000814,20:001D3D,40:003566,60:00509D,80:3A86FF,100:ADE8F4&text=Student%20Score%20Analysis&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Statistics%20•%20Probability%20•%20Linear%20Algebra&descAlignY=66&descSize=20"/>
 
 This project presents a **Statistics + Probability + Linear Algebra** analysis on a real-world student performance dataset containing **5,000 records**. The objective is to apply descriptive statistics, probability concepts, distribution fitting, and vector operations to understand student performance patterns and the relationship between study hours and passing.
 
@@ -25,7 +25,21 @@ To convert raw student marks and study-hour data into evidence-based insights us
 
 ## 🛠️ Tools & Libraries
 
-`Python` · `Jupyter` · `Pandas` · `NumPy` · `Matplotlib` · `SciPy (stats)` · `Statsmodels`
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=flat-square&logo=python)
+![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?style=flat-square&logo=jupyter)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-green?style=flat-square)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical-blue?style=flat-square)
+![SciPy](https://img.shields.io/badge/SciPy-Statistics-purple?style=flat-square)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-red?style=flat-square)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-Machine_Learning-f89939?style=flat-square&logo=scikitlearn)
+
+---
+
+# 🎬 Project Demo
+
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/15rVC3j1UWCeM1BUH4yeZeG4bfqLHGLoZ/view?usp=sharing)
+
+📹 Click the badge above to watch the complete project demonstration.
 
 ---
 
